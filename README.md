@@ -14,7 +14,9 @@ Normalmente funciona, porque aunque es seguro, aún no validamos certificados.
 
 - Agregar el certificado Root CA al código del ESP32
    Debe funcionar nuevamente.
+  
 ## prueba 1
+
 ´´´#include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
