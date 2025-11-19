@@ -17,7 +17,7 @@ Normalmente funciona, porque aunque es seguro, aún no validamos certificados.
   
 ## prueba 1
 
-´´´#include <WiFi.h>
+```#include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 
@@ -82,5 +82,5 @@ void loop() {
   client.publish("prueba/esp32", "Mensaje desde ESP32 sin cert");
   delay(3000);
 }
-´´´ 
+``` 
 <img width="519" height="153" alt="image" src="https://github.com/user-attachments/assets/d5caced1-4b8c-4181-b6b7-e0711f4c2c6b" />
